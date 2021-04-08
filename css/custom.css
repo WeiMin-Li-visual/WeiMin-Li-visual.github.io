@@ -178,6 +178,7 @@ code {
 
 ol { padding-left:20px; }
 .paper-list li{ margin-bottom:10px;}
+.biography-list li{ margin-bottom:10px;display: block;padding-left: 25px;background-image: url("../icon/biography1.png");background-position: left top;background-size: 20px 20px;background-repeat: no-repeat;}
 .research-list li{ margin-bottom:10px;display: block;padding-left: 25px;background-image: url("../icon/research.png");background-position: left top;background-size: 20px 23px;background-repeat: no-repeat;}
 .editor-list li{ margin-bottom:10px;display: block;padding-left: 25px;background-image: url("../icon/editor2.png");background-position: left top;background-size: 20px 20px;background-repeat: no-repeat;}
 .reviewer-list li{ margin-bottom:10px;display: block;padding-left: 25px;background-image: url("../icon/reviewer2.png");background-position: left top;background-size: 20px 20px;background-repeat: no-repeat;}
