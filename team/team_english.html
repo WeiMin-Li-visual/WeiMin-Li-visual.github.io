@@ -1,6 +1,6 @@
 <!--
-页面创建:由李老师2020级学生(刘芳宇、缪赏、胡文娅、倪琳、王婕、朱嘉洁、郭易兴)创建
-日期:2021年4月
+create:Weimin LI's students of grade 2020(Fangyu Liu、Shang Miao、Wengya Hu、Ling Ni、Jie Wang、JiaJie Zhu、Yixing Guo)
+date:April 2021
 -->
 <!DOCTYPE html>
 <html>
@@ -17,20 +17,20 @@
 <div style="width: 1200px;margin: 0 auto;">
     <!--导航栏-->
     <ul class="layui-nav layui-bg-blue">
-      <li class="layui-nav-item"><a href="../index.html"><img src="../icon/professor.png" class="layui-nav-img">老师主页</a></li>
-      <li class="layui-nav-item layui-this"><a href="">团队主页</a></li>
-      <li class="layui-nav-item"><a href="#introduce">团队简介</a></li>
-      <li class="layui-nav-item"><a href="#activities">团队活动</a></li>
+      <li class="layui-nav-item"><a href="../index_english.html"><img src="../icon/professor.png" class="layui-nav-img">Teacher's Homepage</a></li>
+      <li class="layui-nav-item layui-this"><a href="">Team's Homepage</a></li>
+      <li class="layui-nav-item"><a href="#introduce">Introduction</a></li>
+      <li class="layui-nav-item"><a href="#activities">Activities</a></li>
       <li class="layui-nav-item">
-        <a href="#members">团队成员</a>
+        <a href="#members">Members</a>
         <dl class="layui-nav-child">
-          <dd><a href="#phd">博士研究生</a></dd>
-          <dd><a href="#master">硕士研究生</a></dd>
-          <dd><a href="#bachelor">指导的本科生</a></dd>
+          <dd><a href="#phd">PhD Students</a></dd>
+          <dd><a href="#master">Master Students</a></dd>
+          <dd><a href="#bachelor">Undergraduate</a></dd>
         </dl>
       </li>
-      <li class="layui-nav-item"><a href="#join">申请加入团队</a></li>
-      <li class="layui-nav-item"><a href="team_english.html">English Version</a></li>
+      <li class="layui-nav-item"><a href="#join">Apply to Join Us</a></li>
+      <li class="layui-nav-item"><a href="team.html">中文页面</a></li>
     </ul>
     <!--活动轮播图-->
     <div class="layui-carousel" id="test10" style="margin: 0 auto;">
@@ -46,50 +46,50 @@
     </div>
     <!--块引用-->
     <fieldset id="introduce" class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-        <legend>团队简介</legend>
+        <legend>Introduction</legend>
     </fieldset>
     <blockquote class="layui-elem-quote layui-quote-nm">
-        实验室有博士研究生4名（其中留学生2名），硕士研究生17名，目前实验室研究的主要方向为大数据分析、生物信息、智慧医疗、社交网络等。实验室学术氛围浓厚，团结互助，每年量产高水平学术成果若干，近五年来培养的研究生中有两名学生获国家奖学金，团队学生有出国交流机会。
+        The laboratory has 4 doctoral students (including 2 international students) and 17 master students. The main research directions of the laboratory are big data analysis, bioinformatics technology, wise information technology of medical, social network analysis, etc. The laboratory has a strong academic atmosphere, solidarity and mutual assistance, and a number of high-level academic achievements are mass-produced every year. Two of the graduate students trained in the past five years have won national scholarships, and the team students have the opportunity to visit abroad.
     </blockquote>
     <fieldset id="activities" class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-        <legend>团队活动</legend>
+        <legend>Activities</legend>
     </fieldset>
     <div class="layui-bg-gray" style="padding: 30px;">
       <div class="layui-row layui-col-space15"><!--一行放置三个活动的图-->
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 422px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities10.png" width="100%" height="300px" id="img10" onclick="fold('0')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">实验室团建活动</h2>
+                <h2 class="layui-colla-title">Group building activities</h2>
                 <div class="layui-colla-content" index="0" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>李卫民老师组织实验室团队成员于上海迪士尼乐园开展团建活动。</p>
+                  <p>Weimin Li organized the team members of the laboratory to carry out the group building activities in Shanghai Disneyland.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 422px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities1.jpg" width="100%" height="300px" id="img1" onclick="fold('1')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">参加第36届CCF中国数据库学术会议</h2>
+                <h2 class="layui-colla-title">Participated in NDBC 2019</h2>
                 <div class="layui-colla-content" index="1" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2019.10.11~2019.10.13：李卫民老师带领团队成员于济南参加第36届CCF中国数据库学术会议。</p>
+                  <p>2019.10.11~2019.10.13: Teacher Weimin Li led the team members to participate in the 36th CCF National DataBase Conference in Jinan.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 422px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities2-1.jpg" width="100%" height="300px" id="img2" onclick="fold('2')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">参与2019年中国计算机大会</h2>
+                <h2 class="layui-colla-title">Participated in CNCC 2019</h2>
                 <div class="layui-colla-content" index="2" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2019.10.17~2019.10.19：李卫民老师带领团队成员于苏州参与2019年中国计算机大会。</p>
+                  <p>2019.10.17~2019.10.19: Teacher Weimin Li led the team members to participate in the 2019 China National Computer Conference in Suzhou.</p>
                 </div>
               </div>
             </div>
@@ -97,40 +97,40 @@
         </div>
       </div>
       <div class="layui-row layui-col-space15" style="margin-top: 20px;"><!--一行放置三个活动的图-->
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 422px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities3.jpg" width="100%" height="300px" id="img3" onclick="fold('3')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">同北京石油大学交流</h2>
+                <h2 class="layui-colla-title">Discussion with China University of Petroleum</h2>
                 <div class="layui-colla-content" index="3" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2019.12.21：团队成员抵达北京同北京石油大学进行相关学术交流会谈。</p>
+                  <p>2019.12.21: The team members arrived in Beijing to have relevant academic discussions with the team of China University of Petroleum.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 422px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities4.jpg" width="100%" height="300px" id="img4" onclick="fold('4')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">2019年年终聚餐</h2>
+                <h2 class="layui-colla-title">2019 year-end dinner</h2>
                 <div class="layui-colla-content" index="4" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2019.12.31：实验室于上海举办2019年年终聚餐，回顾2019年的研究工作，展望2020年新目标。</p>
+                  <p>2019.12.31: The laboratory held a 2019 year-end dinner in Shanghai to review the research work in 2019 and look forward to the new goals for 2020.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 422px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities5.jpg" width="100%" height="300px" id="img5" onclick="fold('5')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">参与第十七届中国信息系统及应用大会</h2>
+                <h2 class="layui-colla-title">Participated in WISA 2020</h2>
                 <div class="layui-colla-content" index="5" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2020.9.13~2020.9.25：李卫民老师带领团队成员于广州参与第十七届中国信息系统及应用大会。</p>
+                  <p>9.13~9.25: Teacher Weimin Li led the team members to participate in the 17th international Conference of Web Information Systems and Application.</p>
                 </div>
               </div>
             </div>
@@ -138,40 +138,40 @@
         </div>
       </div>
       <div class="layui-row layui-col-space15" style="margin-top: 20px;"><!--一行放置三个活动的图-->
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 443px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities6.jpg" width="100%" height="300px" id="img6" onclick="fold('6')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">参与第8届CCF大数据学术会议</h2>
+                <h2 class="layui-colla-title">Participated in CCF BIGDATA 2020</h2>
                 <div class="layui-colla-content" index="6" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2020.10.22~2020.10.24：李卫民老师带领团队成员于重庆参与第8届CCF大数据学术会议。</p>
+                  <p>2020.10.22~2020.10.24: Teacher Weimin Li led the team members to participate in the 8th CCF BIGDATA and CNCC 2020 BIGDATA session.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 443px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities7.jpg" width="100%" height="300px" id="img7" onclick="fold('7')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">参与ChineseCSCW 2020</h2>
+                <h2 class="layui-colla-title">Participated in ChineseCSCW 2020</h2>
                 <div class="layui-colla-content" index="7" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2020.11.7~2020.11.9:李老师带领队员于深圳参与第15届全国计算机支持的协同工作与社会计算学术会议。</p>
+                  <p>2020.11.7~2020.11.9: Teacher Weimin Li led the team members to participate in the Chinese Conference on Computer Supported Cooperative Work and Social Computing, 2020.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="layui-col-md6" style="width: 385px;height: 400px;float: left;">
+        <div class="layui-col-md6" style="width: 385px;height: 443px;float: left;">
           <div class="layui-panel" style="text-align: center;">
             <img src="activities/activities8-2.jpg" width="100%" height="300px" id="img8" onclick="fold('8')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">召开学术会议交流国家重点计划项目</h2>
+                <h2 class="layui-colla-title">Discuss projects with Japanese experts</h2>
                 <div class="layui-colla-content" index="8" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>2020.11.27：迫于疫情，李卫民老师于上海召开国家重点计划项目线上咨询会，同日本专家进行探讨交流。</p>
+                  <p>2020.11.27: Due to the COVID-19 epidemic, Teacher Weimin Li held an online consultation meeting in Shanghai to discuss key national planned projects with Japanese experts.</p>
                 </div>
               </div>
             </div>
@@ -181,9 +181,9 @@
     </div>
     <!--块引用-->
     <fieldset id="members" class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-        <legend>团队成员</legend>
+        <legend>Members</legend>
     </fieldset>
-    <h3 id="phd" style="margin-left: 30px;">博士研究生</h3>
+    <h3 id="phd" style="margin-left: 30px;">PhD Students</h3>
     <div class="layui-bg-gray" style="padding: 30px;">
       <div class="layui-row layui-col-space15"><!--一行放置四个学生的图-->
         <div class="layui-col-md6" style="width: 288px;height: 415px;float: left;">
@@ -191,11 +191,11 @@
             <img src="students/1Shaohua_Li.png" width="210px" height="270px" onclick="fold('100')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">李少华 [Shaohua Li]</h2>
+                <h2 class="layui-colla-title">Shaohua Li [李少华]</h2>
                 <div class="layui-colla-content" index="100" flag="open"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：假消息检测</p>
-                  <p>在校时间：2018 -</p>
-                  <p>访学经历：2019.9~2019.10 日本理化所 R-CCS</p>
+                  <p>Direction: Fake News Detection</p>
+                  <p>Time period in school: 2018 -</p>
+                  <p>Visiting Experience: 2019.9~2019.10 R-CCS, Japan</p>
                   <!--<p>毕业去向：</p>-->
                 </div>
               </div>
@@ -209,8 +209,8 @@
               <div class="layui-colla-item" style="text-align: left;">
                 <h2 class="layui-colla-title">Alex L.Munyole</h2>
                 <div class="layui-colla-content" index="101" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：假消息检测</p>
-                  <p>在校时间：2019 -</p>
+                  <p>Direction: Fake News Detection</p>
+                  <p>Time period in school: 2019 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -225,9 +225,9 @@
               <div class="layui-colla-item" style="text-align: left;">
                 <h2 class="layui-colla-title">Tsigabu Teame Bezabih</h2>
                 <div class="layui-colla-content" index="102" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：植物疾病检测与分类</p>
-                  <p>在校时间：2019 -</p>
-                  <p>前期经历：前默克莱大学讲师</p>
+                  <p>Direction: Plant Disease Detection</p>
+                  <p>Time period in school: 2019 -</p>
+                  <p>Experience: Ex- Mekelle University Lecturer</p>
                   <!--<p>毕业去向：</p>-->
                 </div>
               </div>
@@ -239,10 +239,10 @@
             <img src="students/4Xiao_Yu.png" width="210px" height="270px" onclick="fold('103')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">于晓 [Xiao Yu]</h2>
+                <h2 class="layui-colla-title">Xiao Yu [于晓]</h2>
                 <div class="layui-colla-content" index="103" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：生物网络</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Biological Network</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -252,7 +252,7 @@
         </div>
       </div>
     </div>
-    <h3 id="master" style="margin-left: 30px;">硕士研究生</h3>
+    <h3 id="master" style="margin-left: 30px;">Master Students</h3>
     <div class="layui-bg-gray" style="padding: 30px;">
       <div class="layui-row layui-col-space15"><!--一行放置四个学生的图-->
         <div class="layui-col-md6" style="width: 288px;height: 415px;float: left;">
@@ -260,11 +260,11 @@
             <img src="students/5Zheng_Li.png" width="210px" height="270px" onclick="fold('200')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">李郑 [Zheng Li]</h2>
+                <h2 class="layui-colla-title">Zheng Li [李郑]</h2>
                 <div class="layui-colla-content" index="200" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：影响力最大化</p>
-                  <p>在校时间：2018 - 2021</p>
-                  <p>毕业工作：上海寻梦信息技术有限公司</p>
+                  <p>Direction: Maximize Influence</p>
+                  <p>Time period in school: 2018 - 2021</p>
+                  <p>Work: Shanghai Xunmeng Information Technology Co., Ltd.</p>
                 </div>
               </div>
             </div>
@@ -275,10 +275,10 @@
             <img src="students/6Kexin_Zhong.png" width="210px" height="270px" onclick="fold('201')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">钟克欣 [Kexin Zhong]</h2>
+                <h2 class="layui-colla-title">Kexin Zhong [钟克欣]</h2>
                 <div class="layui-colla-content" index="201" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：影响力最大化</p>
-                  <p>在校时间：2018 - 2021</p>
+                  <p>Direction: Maximize Influence</p>
+                  <p>Time period in school: 2018 - 2021</p>
                 </div>
               </div>
             </div>
@@ -289,11 +289,11 @@
             <img src="students/7Zhibin_Deng.png" width="210px" height="270px" onclick="fold('202')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">邓志斌 [Zhibin Deng]</h2>
+                <h2 class="layui-colla-title">Zhibin Deng [邓志斌]</h2>
                 <div class="layui-colla-content" index="202" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：社交网络群体行为</p>
-                  <p>在校时间：2019 -</p>
-                  <p>学术交流：2019.11与中国石油大学团队交流</p>
+                  <p>Direction: Group Behavior in Social Networks</p>
+                  <p>Time period in school: 2019 -</p>
+                  <p>Experience: 2019.11, Discussion with the team of China University of Petroleum</p>
                   <!--<p>毕业去向：</p>-->
                 </div>
               </div>
@@ -305,10 +305,10 @@
             <img src="students/8Jiamian_Li.png" width="210px" height="270px" onclick="fold('203')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">李嘉冕 [Jiamian Li]</h2>
+                <h2 class="layui-colla-title">Jiamian Li [李嘉冕]</h2>
                 <div class="layui-colla-content" index="203" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：社交网络群体行为建模</p>
-                  <p>在校时间：2019 -</p>
+                  <p>Direction: Social Network Group Behavior Modeling</p>
+                  <p>Time period in school: 2019 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -325,10 +325,10 @@
             <img src="students/10Yanxia_Liu.png" width="210px" height="270px" onclick="fold('205')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">刘艳霞 [Yanxia Liu]</h2>
+                <h2 class="layui-colla-title">Yanxia Liu [刘艳霞]</h2>
                 <div class="layui-colla-content" index="205" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：社交网络中的谣言源检测</p>
-                  <p>在校时间：2019 -</p>
+                  <p>Direction: Rumor Source Detection in Social Networks</p>
+                  <p>Time period in school: 2019 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -341,10 +341,10 @@
             <img src="students/12Zhao_Wang.png" width="210px" height="270px" onclick="fold('207')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">王钊 [Zhao Wang]</h2>
+                <h2 class="layui-colla-title">Zhao Wang [王钊]</h2>
                 <div class="layui-colla-content" index="207" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：社区的动态演化分析</p>
-                  <p>在校时间：2019 -</p>
+                  <p>Direction: Dynamic Evolution Analysis of Community</p>
+                  <p>Time period in school: 2019 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -357,10 +357,10 @@
             <img src="students/13Cai_Zhang.png" width="210px" height="270px" onclick="fold('208')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">张财 [Cai Zhang]</h2>
+                <h2 class="layui-colla-title">Cai Zhang [张财]</h2>
                 <div class="layui-colla-content" index="208" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>方向：社交网络群体行为建模与预测</p>
-                  <p>在校时间：2019 -</p>
+                  <p>Direction: Modeling and Prediction of Social Network Group Behavior</p>
+                  <p>Time period in school: 2019 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -373,10 +373,10 @@
             <img src="students/14Yixing_Guo.png" width="210px" height="270px" onclick="fold('209')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">郭易兴 [Yixing Guo]</h2>
+                <h2 class="layui-colla-title">Yixing Guo [郭易兴]</h2>
                 <div class="layui-colla-content" index="209" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：社交网络</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Social Network Analysis</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -393,10 +393,10 @@
             <img src="students/15Wenya_Hu.png" width="210px" height="270px" onclick="fold('210')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">胡文娅 [Wenya Hu]</h2>
+                <h2 class="layui-colla-title">Wenya Hu [胡文娅]</h2>
                 <div class="layui-colla-content" index="210" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：金融数据分析</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Financial Data Analysis</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -411,8 +411,8 @@
               <div class="layui-colla-item" style="text-align: left;">
                 <h2 class="layui-colla-title">刘芳宇 [Fangyu Liu]</h2>
                 <div class="layui-colla-content" index="211" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：智慧医疗</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Wise Information Technology of Medical</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -427,8 +427,8 @@
               <div class="layui-colla-item" style="text-align: left;">
                 <h2 class="layui-colla-title">缪赏 [Shang Miao]</h2>
                 <div class="layui-colla-content" index="212" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：智慧医疗</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Wise Information Technology of Medical</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -441,10 +441,10 @@
             <img src="students/18Lin_Ni.png" width="210px" height="270px" onclick="fold('213')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">倪琳 [Lin Ni]</h2>
+                <h2 class="layui-colla-title">Lin Ni [倪琳]</h2>
                 <div class="layui-colla-content" index="213" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：社交网络</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Social Network Analysis</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -461,10 +461,10 @@
             <img src="students/19Wang_Jie.png" width="210px" height="270px" onclick="fold('214')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">王婕 [Valerie Wang]</h2>
+                <h2 class="layui-colla-title">Valerie Wang [王婕]</h2>
                 <div class="layui-colla-content" index="214" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：生物信息</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Bioinformatics Technology</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -477,10 +477,10 @@
             <img src="students/20Jiajie_Zhu.png" width="210px" height="270px" onclick="fold('215')"><!--点击事件传入参数代表点击的第几个图-->
             <div class="layui-collapse" lay-accordion="">
               <div class="layui-colla-item" style="text-align: left;">
-                <h2 class="layui-colla-title">朱嘉洁 [Jiajie Zhu]</h2>
+                <h2 class="layui-colla-title">Jiajie Zhu [朱嘉洁]</h2>
                 <div class="layui-colla-content" index="215" flag="close"><!--index逐个需要顺延序号，图片点击事件中用到代表需要打开哪个折叠面板，flag是状态码，是否为打开状态-->
-                  <p>研究方向：生物信息</p>
-                  <p>在校时间：2020 -</p>
+                  <p>Direction: Bioinformatics Technology</p>
+                  <p>Time period in school: 2020 -</p>
                   <!--<p>访学/交流经历：</p>-->
                   <!--<p>毕业去向：</p>-->
                 </div>
@@ -491,7 +491,7 @@
       </div>
     </div>
     <!--静态无网格表格-->
-    <h3 id="bachelor" style="margin-left: 30px;">指导的本科生</h3>
+    <h3 id="bachelor" style="margin-left: 30px;">Undergraduate students under the guidance of Mr.Li</h3>
     <table class="layui-table" lay-even="" lay-skin="nob" style="text-align: center;">
       <colgroup>
         <col width="15%">
@@ -501,10 +501,10 @@
       </colgroup>
       <thead>
         <tr>
-          <th style="text-align: center;">姓名</th>
-          <th style="text-align: center;">在校时间</th>
-          <th style="text-align: center;">毕业论文主题</th>
-          <th style="text-align: center;">毕业后去向</th>
+          <th style="text-align: center;">Name</th>
+          <th style="text-align: center;">Time period in school</th>
+          <th style="text-align: center;">Theme of graduation thesis</th>
+          <th style="text-align: center;">Situation after graduation</th>
         </tr>
       </thead>
       <tbody>
@@ -542,12 +542,12 @@
         -->
       </tbody>
     </table>
-    <p>*注：以上学生顺序按入学年份以及姓名字典排列</p>
+    <p>*Note: The order of the above students is arranged according to the year of matriculate and name dictionary</p>
     <!--块引用-->
     <fieldset id="join" class="layui-elem-field layui-field-title" style="margin-top: 20px;">
-        <legend>申请加入团队</legend>
+        <legend>Apply to Join Us</legend>
     </fieldset>
-    <blockquote class="layui-elem-quote">我们一直有兴趣招募勤奋好学，积极向上，踏实肯干的研究生和本科生，如果你对大数据分析、生物信息、智慧医疗、社交网络相关方向感兴趣，想要加入研究团队或者了解团队更多信息，请邮件：wmli@shu.edu.cn与我联系并发送简历。</blockquote>
+    <blockquote class="layui-elem-quote">We have always been interested in recruiting diligent, motivated, and hard-working postgraduate and undergraduate students. If you are interested in big data analysis, bioinformatics technology, wise information technology of medical, and social network analysis related directions, and want to join the research team or learn more about the team, please email ：wmli@shu.edu.cn contact me and send your resume.</blockquote>
     <!--页底-->
     <footer class="footer" style="margin-top: 30px;">
       <div class="container" style="text-align: center;">
